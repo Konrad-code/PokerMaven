@@ -13,10 +13,10 @@ import com.poker.templates.ITalia;
 public class MainSQL {
 
 	private static final String JDBC_DRIVER = "org.postgresql.Driver";
-	private static final String URL = "jdbc:postgresql://localhost/postgres";
-	private static final String URL2 = "jdbc:postgresql://localhost/zadanie1";
-	private static final String LOGIN = "postgres";
-	private static final String PASSWORD = "maxi55";
+//	private static final String URL = "jdbc:postgresql://localhost/postgres";
+	private static final String URL2 = "jdbc:postgresql://localhost/zadanie1"; // GIVE PATH TO YOUR OWN CREATED DB
+	private static final String LOGIN = "GIVE YOUR LOGIN";
+	private static final String PASSWORD = "GIVE YOUR PASSWORD";
 	
 	public static void main(String[] args) {
 		
